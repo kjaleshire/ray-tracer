@@ -1,0 +1,4 @@
+rule cc
+    command = cl.exe /O2 /MDd /EHsc $in
+
+build tracer.exe: cc tracer.cpp
